@@ -13,7 +13,7 @@ pool:
   name: iti-self-hosted
 
 variables:
-  DockerHub: "emanshehta99"          
+  DockerHub: "emanshehta99"           
   dockerRegistryServiceConnection: "docker-serv-conn"
     
 parameters:
