@@ -1,0 +1,20 @@
+---
+- name: Setup EC2 instance 
+  hosts: ec2
+  become: true
+
+  tasks:
+    - name: Copy script to ec2
+      copy:
+        src: ./bootstrap.sh
+        dest: /tmp/bootstrap.sh
+        mode: '0755'
+
+    - name: Run bootstrap script
+      shell: /tmp/bootstrap.sh
+      
+     
+
+    - name: Show script output
+      debug:
+        var: setup_result.stdout_lines
