@@ -7,7 +7,7 @@ const MessageForm = ({ onAddMessage }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (message.trim()) {
-      onAddMessage(message);
+      onAddMessage(message); 
       setMessage('');
     }
   };
