@@ -1,5 +1,5 @@
 ---
-- name: Setup EC2 instance 
+- name: configure ec2 instance 
   hosts: ec2
   become: true
 
