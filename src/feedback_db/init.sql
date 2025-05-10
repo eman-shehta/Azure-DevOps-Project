@@ -1,4 +1,4 @@
-CREATE DATABASE feedback;
+CREATE DATABASE feedback; 
 
 \c feedback;
 
