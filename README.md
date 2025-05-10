@@ -11,7 +11,7 @@ Perfect for DevOps demos, Kubernetes practice, and hands-on CI/CD pipelines.
 
 ---
 
-## 🔧 Architecture
+## 🔧 Architecture 
 
 ```
 User Browser
