@@ -5,7 +5,7 @@ module "eks" {
   vpc_id          = aws_vpc.vpc.id
   subnet_ids      = [aws_subnet.pub_subnet1.id, aws_subnet.pub_subnet2.id]
 
-  eks_managed_node_groups = {
+  eks_managed_node_groups = { 
     staging_nodes = {
       desired_size   = 2
       max_size       = 3
