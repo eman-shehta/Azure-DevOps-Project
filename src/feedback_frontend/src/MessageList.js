@@ -1,7 +1,7 @@
 // MessageList.js
 import React from 'react';
 
-const MessageList = ({ messages, onDelete }) => {
+const MessageList = ({ messages, onDelete }) => { 
   return (
     <ul>
       {messages.map((msg) => (
