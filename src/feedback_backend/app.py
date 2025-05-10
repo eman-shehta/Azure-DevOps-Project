@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import psycopg2
 import os
-
+ 
 app = Flask(__name__)
 
 # Database connection using hardcoded defaults and environment overrides
