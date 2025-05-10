@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import MessageForm from './MessageForm';
-import MessageList from './MessageList';
+import MessageList from './MessageList'; 
 
 function App() {
   const [messages, setMessages] = useState([]);
